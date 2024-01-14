@@ -42,23 +42,6 @@
             android:fragment="com.cyclone.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
-        <!-- Buttons -->
-        <Preference
-            android:key="buttons_category"
-            android:title="@string/buttons_title"
-            android:summary="@string/buttons_summary"
-            android:fragment="com.cyclone.settings.fragments.Buttons"
-            android:icon="@drawable/ic_settings_buttons"/>
-
-        <!-- Gestures -->
-        <Preference
-            android:key="gesture_settings"
-            android:title="@string/gesture_preference_title"
-            android:summary="@string/gestures_summary"
-            android:icon="@drawable/ic_settings_gest"
-            android:fragment="com.android.settings.gestures.GestureSettings"
-            settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
-
         <!-- System -->
         <Preference
             android:key="system_category"
@@ -83,14 +66,6 @@
             android:fragment="com.cyclone.settings.fragments.Notifications"
             android:icon="@drawable/ic_settings_notifications"/>
 
-        <!-- Nav bar -->
-        <Preference
-            android:key="navbar_category"
-            android:title="@string/navigation_title"
-            android:summary="@string/navigation_summary"
-            android:fragment="com.cyclone.settings.fragments.Navigation"
-            android:icon="@drawable/ic_settings_navbar" />
-
         <!-- Battery Saving -->
         <Preference
             android:key="battery_category"
@@ -98,14 +73,6 @@
             android:summary="@string/battery_saving_summary"
             android:fragment="com.cyclone.settings.fragments.Battery"
             android:icon="@drawable/ic_settings_battery"/>
-
-        <!-- Animation -->
-        <Preference
-            android:key="animations_category"
-            android:title="@string/animations_title"
-            android:summary="@string/animations_summary"
-            android:fragment="com.cyclone.settings.fragments.Animations"
-            android:icon="@drawable/ic_settings_animations"/>
 
         <!-- Misc -->
         <Preference
