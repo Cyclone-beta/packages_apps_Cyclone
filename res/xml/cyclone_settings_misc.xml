@@ -18,4 +18,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_title" >
 
+    <Preference
+        android:key="game_settings"
+        android:title="@string/game_space_title"
+        android:summary="@string/game_space_summary"
+        android:order="-995"
+        settings:controller="com.android.settings.applications.GameSpaceController">
+    </Preference>
+
 </PreferenceScreen>
